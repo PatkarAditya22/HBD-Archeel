@@ -101,13 +101,89 @@
                     <h1 class="title" style="font-size:10em;">
                         Let's Go!!!!!!
                     </h1>
-                    <h2 class="subtitle">
+                    <!-- <h2 class="subtitle">
                         Wishes from all your friends :) Enjoiiiii
-                    </h2>
+                    </h2> -->
+                    <img style="height:440px;width:420px;" src="./Archeel-pics/cover.jpeg" alt="">
+                    <img style="height:440px;width:420px;" src="./Archeel-pics/cover2.jpeg" alt="">
+                    <img style="height:440px;width:420px;" src="./Archeel-pics/cover3.jpeg" alt="">
                 </div>
             </div>
         </section>
         
+        <div style="height: max-content ; background-color:#f89747;color:black;font-size: 50px;" id="block7">
+            <!-- <button onclick="go_back()">Go Back</button> -->
+            <div class="timeline2">
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(1)">
+                    <div class="content2" style="height: max-content">
+                        <img src="./Archeel-pics/2013-1.jpeg"  alt="">
+                        <h1>randi</h1>
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(2)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2013-2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(3)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2013-3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(4)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2014-1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(5)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2014-2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(6)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2014-3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(7)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2015-1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(8)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2015-2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(9)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/mom.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(10)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2016-1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(11)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2016-2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 right2" data-aos="zoom-out-down" onclick="goto(12)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2016-3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="container2 left2" data-aos="zoom-out-down" onclick="goto(13)">
+                    <div class="content2">
+                        <img src="./Archeel-pics/2016-4.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <section class="hero is-primary" data-aos="fade-right" style="width: 100%;height:100%;">
             <div class="hero-body">
                 <div class="container">
@@ -290,6 +366,26 @@
             to {
                 transform: rotate(0);
             }
+        }
+
+        /* The actual timeline (the vertical ruler) */
+        .timeline2 {
+        position: relative;
+        max-width: 1200px;
+        font-size: 30px;
+        margin: 0 auto;
+        }
+
+        /* The actual timeline (the vertical ruler) */
+        .timeline2::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
         }
 
         /* Container around content */
