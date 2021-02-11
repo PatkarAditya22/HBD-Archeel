@@ -4,7 +4,7 @@ Ruby -  I am a language named after a precious stone (Premsing)
 Python - People fear from me (Pratik)
 Java -  Non-programmers also know me (Yogesh)
 Dart- I am newly developed OO language developed by everyone's dream company. (Mehdi)
-PHP - a teen used me to develop his social networking site and he is a billionaire today.
+PHP - a teen used me to develop his social networking site and he is a billionaire today. (rohan)
 Go - Ready Set .. (Yash)
 Rust - I am not as outdated as my name (related to iron) (Saif)
 Kotlin - I was released to reduce the amount of code developers used to write in Java. (Palak)
