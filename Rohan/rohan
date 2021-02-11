@@ -1,0 +1,46 @@
+<?php
+echo '<span style="font-size: 23px;font-family:Brush Script MT, cursive;color:white">';
+echo "<body style='background-color:black'>";
+function HappyBdayArcheel(){
+
+	$wish = '';
+
+	for ($i = 0; $i < 4; $i++) {
+ 
+    		$wish.= "Happy birthday ";
+ 
+    		if ($i != 2) {
+        		$wish.= "to you!\n";
+ 
+    		} else {
+        		$wish.= "dear Archeel !!\n";
+   	        }
+	}
+	echo "$wish";
+	echo"<br>";
+}
+function BdayMSG(){
+	echo "First of all a very Happy Birthday to you Archeel <br>";
+	echo "Tujhe dekh k ek 3 idiots ka scene yaad ata h :)) <br>";
+	$url = 'https://nettv4u.com/fileman/Uploads/Top-10-Bollywood-Comic-Dialogues/Dost_Fail_Ho_Jaye_Toh_Dukh_Hota_.jpg';
+	$image = base64_encode(file_get_contents($url));
+	echo '<img src="data:image/jpeg;base64,'.$image.'"><br>';
+	echo"But jokes Apart Mai ye summer tujhe bohot pareshaan karne wala h and tons of doubts I'll ask :) <br>";
+	echo "I remember Mai Atharva Yogesh and Tu sem 3 me kafi masti karte the last bench pe and tera lete the,regarding what ye abhi nhi bata rha sabke samne :) par
+	U used to participate in a joke made for u and thats the one thing I admire about u!!<br>";
+	echo "I think in our class u are one of the most Consistent and Hardworking ppl, be it Academics or Coding!!<br>";
+	$url1 = 'https://cdn.igp.com/f_auto,q_auto,t_prodm/products/p-royal-birthday-wish-cake-1-kg--111506-m.jpg';
+	$image1 = base64_encode(file_get_contents($url1));
+	echo '<img src="data:image/jpeg;base64,'.$image1.'">';
+	$url2 = 'https://pbs.twimg.com/profile_images/1263743981210308608/ZWX6kjCg_400x400.jpg';
+	$image2 = base64_encode(file_get_contents($url2));
+	echo '<img src="data:image/jpeg;base64,'.$image2.'"><br>';
+	echo "Jaldi milte h sab wapas!!";
+	echo "Stay Happy,Stay Blessed and Enjoy Ur Day!!<br>";
+	
+	
+}
+HappyBdayArcheel();
+BdayMSG();
+
+?>

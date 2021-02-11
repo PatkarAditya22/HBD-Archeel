@@ -1,0 +1,107 @@
+func happybday(piece: String, steps: Int,piece2: String)
+{
+    print("Happy  \(steps) st Birthday \(piece) \(piece2) ")
+}
+
+
+
+func greeting(user: String)
+{
+    print("\(user) your day!")
+}
+
+func starprintTraingle(_ int : Int)
+{
+ for i in 1...int
+ {
+   print(String.init(repeating: " ", count: int-i) + String.init(repeating: "*", count: 2*i - 1))
+ }
+}
+
+
+func starprintupsideDownTraingle(_ int : Int)
+{
+    var i = int
+    while i >= 1
+    {
+      print(String.init(repeating: " ", count: int-i) + String.init(repeating: "*", count: 2*i - 1))
+      i = i-1
+    }
+}
+
+func starprintRightTraingle(_ int : Int)
+{
+  for i in 1...int
+  {
+     print(String.init(repeating: " ", count: int-i)+String.init(repeating: "*", count: i))
+  }
+}
+
+func upsideDown(_ int : Int)
+{
+    for i in 0...int-1
+    {
+        print(String.init(repeating: "*", count: int-i))
+    }
+}
+
+func starprintSquare(_ int : Int)
+{
+    for i in 1...int
+    {
+        if i == 1 || i == int
+        {
+           print(String.init(repeating: "*", count: int))
+        }
+        else
+        {
+          print(String.init(repeating: "*", count: 1) + String.init(repeating: " ", count: int-2) + String.init(repeating: "*", count: 1))
+        }
+    }
+}
+
+starprintTraingle(18)
+print("*     *      ********     ***         * ")
+print("*     *      *      *     *   *       * ")
+print("*     *      *     *      *     *     *   ")
+print("*******      ******       *      *    *  ")
+print("*     *      *     *      *     *     *  ")
+print("*     *      *      *     *   *         ")
+print("*     *      ********     ***         * ")
+starprintupsideDownTraingle(18)
+
+starprintRightTraingle(18)
+print("*******      ********     ********    *      *    *******    *******    *     ")
+print("*     *      *      *     *           *      *    *          *          *     ")
+print("*     *      *     *      *           *      *    *          *          *   ")
+print("*******      ******       *           ********    *******    *******    *    ")
+print("*     *      *     *      *           *      *    *          *          *    ")
+print("*     *      *      *     *           *      *    *          *          *     ")
+print("*     *      *      *     ********    *      *    *******    *******    *******    ")
+upsideDown(18)
+
+for i in 1..<18 {
+    for _ in 1...i {
+        print("*", terminator: "")
+    }
+    print("")
+}
+
+starprintTraingle(18)
+happybday(piece: "Archeel", steps: 21,piece2: "Broo" )
+starprintupsideDownTraingle(18)
+starprintRightTraingle(18)
+
+greeting(user: "Enjoy")
+upsideDown(18)
+//starprintSquare(8)
+for i in 1..<18 {
+    for _ in 1...i {
+        print("*", terminator: "")
+    }
+    print("")
+}
+upsideDown(18)
+
+
+;
