@@ -1,13 +1,13 @@
-C- I am the primary language
-C++ - I am the next gen of C language
-Ruby -  I am a language named after a precious stone
-Python - People fear from me
-Java -  Non-programmers also know me
-Dart- I am newly developed OO language developed by everyone's dream company.
+C- I am the primary language (hrimona)
+C++ - I am the next gen of C language (Siddharth)
+Ruby -  I am a language named after a precious stone (Premsing)
+Python - People fear from me (Pratik)
+Java -  Non-programmers also know me (Yogesh)
+Dart- I am newly developed OO language developed by everyone's dream company. (Mehdi)
 PHP - a teen used me to develop his social networking site and he is a billionaire today.
-Go - Ready Set ..
-Rust - I am not as outdated as my name (related to iron)
-Kotlin - I was released to reduce the amount of code developers used to write in Java.
-Swift - I am very quick/fast..
-JavaScript - Like Daenerys, I am empowered by my 3 dragons(ARV) 
-XML - I hold data just like HTML but I am not HTML(iska sure nahi hu 😂)
+Go - Ready Set .. (Yash)
+Rust - I am not as outdated as my name (related to iron) (Saif)
+Kotlin - I was released to reduce the amount of code developers used to write in Java. (Palak)
+Swift - I am very quick/fast.. (Ajinkya)
+JavaScript - Like Daenerys, I am empowered by my 3 dragons(ARV)  (Aditya)
+XML - I hold data just like HTML but I am not HTML(iska sure nahi hu 😂) (Srushti)

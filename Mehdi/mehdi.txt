@@ -1,0 +1,35 @@
+void defaultParameters(){
+  print("""
+If hackthon was a function then we both would be the default parameters of that function. Jabbi koi hackthon ka msg aata hai ocb ya coc ke grp pe, almost all the time me and you, not to forget patkar, are in the same team. Hardly ek ya do hacks hoge jisme ham saathme nahi the.
+  """);
+}
+
+void someFunnyMoments(){
+    print("""
+I remember the day we played truth and dare in TSEC hack jisme judges ne hamara bohot kaata 😂 and you know the questions we asked each other. Well I don't need to  say more about this 🤫😂.
+
+Aur fir hamlog ne ek baar patkar ko bola tha ki Sagar Sir ne uska attendance kaate do din ka just coz he bunked one of his lectures 😂. Bichara soya nai hoga vo raat.
+""");
+}
+
+void happyBirthdayArcheel() {
+  print("""
+Mere se gift ki ummeed nahi rakhna coz mai tere se party ki ummeed nahi rakhta 😜 jk
+  
+I wish you all happiness in the world, all of which you deserve. Enjoy every second of this day. I hope this year becomes your best one you have ever experienced.
+
+Happy Birthday Archeel!
+  """);
+}
+
+String next() {
+  String lang = "Java";
+  return lang;
+}
+
+void main(){
+  someFunnyMoments();
+  defaultParameters();
+  happyBirthdayArcheel();
+  next();
+}

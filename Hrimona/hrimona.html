@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"></script> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hrimona</title>
+    </head>
+    <body>
+        <div class="modal" style="text-align: center;"> 
+            <div class="modal-background"></div> 
+            <div class="modal-content"> 
+    
+                <div class='box'> 
+                <h1 class='title'
+                    style='color:green'> 
+                    Kya yaar bhai!! Itna bhi nai pata!!</h1> 
+                </div> 
+            </div> 
+            <button class="modal-close is-large"
+                    aria-label="close"> 
+                Model 
+            </button> 
+            </div> 
+        </div> 
+        <section class="hero is-primary terminal" data-aos="fade-right" style="width: 100%;height:100% !important;">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title" style="font-size:10em;font-family: Lucida Handwriting;">
+                        Hrimona
+                    </h1>
+                    <button  onclick="window.open('https://www.google.com')" style="font-size:3em;" class="button is-danger is-outlined">Hrimona</button>
+                    <br><br>
+                    <input class="input is-danger is-large" type="text" placeholder="Next Langauge ka naam" id='lang'>
+                    <br><br>
+                    <button  onclick="check()" style="font-size:3em;" class="button is-danger is-outlined" id='submit'>Sure hai?</button>
+                </div>
+            </div>
+        </section>
+        <section class="hero is-danger ui" data-aos="fade-right" style="!important;">
+            <div class="container" style="padding:2em;width:50%;height:50%;">
+                <img src="../Archeel-pics/1.jpeg" alt="">
+            </div>
+        </section>
+    </body>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+        function check(){
+            var lang = document.getElementById('lang').value.toLowerCase();
+            if(lang == 'c++'){
+                window.open('https://hbd-archeel.netlify.app/index.html');
+            }else{
+                document.getElementsByClassName('modal')[0].classList.add("is-active");
+            }
+        }
+        const modal = document.querySelector('.modal'); 
+        const btn = document.querySelector('#submit') 
+        const close = document.querySelector('.modal-close') 
+
+        btn.addEventListener('click', 
+                            function () { 
+        modal.style.display = 'block' 
+        }) 
+
+        close.addEventListener('click', 
+                            function () { 
+        modal.style.display = 'none'; 
+        }) 
+
+        window.addEventListener('click', 
+                                function (event) { 
+        if (event.target.className === 
+            'modal-background') { 
+            modal.style.display = 'none';
+        } 
+        }) 
+    </script>
+    <style>
+        .ui{
+            background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .terminal{
+            background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+</html>
+
+
+

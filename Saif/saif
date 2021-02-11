@@ -1,0 +1,48 @@
+fn hbd() {
+    for _i in 0..3 {
+        println!();
+    }
+    println!("🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉");
+    println!("🎉                          🎉");
+    println!("🎉  Happy Birthday Archeel  🎉");
+    println!("🎉                          🎉");
+    println!("🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉");
+    for _i in 0..3 {
+        println!();
+    }
+}
+
+fn memories() {
+
+    println!("🎂 Chand Kisse...\n");
+
+    let arr: [&str; 6] = [
+        "1. Fresher's ke time pe naachte naachte khud ka hi chashma tod diya tha🤣\n",
+        "2. Techno spons trip to Worli. Poora din bhatakne ke baad khali haath aa gaye. Uss din ke baad se tune na Techno kiya na Prati.🙂\n",
+        "3. First Hackathon. Tera model itching pe fungal infection diya toh judges bhi apni lene lage😔\n",
+        "4. Self-Driving Car🙂\n",
+        "5. Kapdabazaar pe mast kaam kiya apan ne. Zara Manav se baat karke paise nikalwaa yaar ab toh itna bada ho gaya tu😔\n",
+        "6. Iss saal toh doosron ki cheese uthana band kar de, kab tak same cheese chipkayega sab jagah??🤣\n"
+    ];
+
+    for msg in arr.iter() {
+        println!("{}", msg);
+    }
+
+    for _i in 0..2 {
+        println!();
+    }
+}
+
+fn next() {
+
+    println!("🎂 Next up...\n");
+
+    println!("I was released to reduce the amount of code developers used to write in Java. Guess kar...\n");
+}
+
+fn main(){
+    hbd();
+    memories();
+    next();
+}
